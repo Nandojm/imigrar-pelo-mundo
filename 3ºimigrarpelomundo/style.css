@@ -1,0 +1,84 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(viagem-internacional-1.jpg);
+
+   background-attachment:fixed ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;    
+    
+}
+
+header{
+    background-color: rgba(255, 255, 255, 0.815);
+    margin:30px 0px 0px 0px ;
+    padding: 18px;    
+}
+
+header h1{
+    text-align: center;   
+}
+
+main{    
+    background-color: rgba(255, 255, 255, 0.658);
+    margin: 70px auto auto auto;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.384) ;
+    height:235px;    
+    width: 25%;
+    border-radius: 10px 10px ;    
+    min-width: 300px;
+    max-width: 1900px;
+    margin-bottom: 10%;
+    
+}
+
+main > h1{
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+    font-size: 1.7em;
+    padding: 0px 10px;
+    border-radius: 10px 10px 0px 0px;   
+}
+
+article{
+    background-color: rgba(255, 255, 255, 0.507);
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px ;
+    height: 15px; 
+}
+
+article > a { 
+    display: none;
+    font-size: 16px;    
+}
+
+article:hover > a {
+    background-color: rgba(255, 255, 255, 0.301); 
+    display: block;    
+}
+
+article > a:hover{/*hover faz tipo efeito de botão q aperece quando pssa por cima*/
+    background-color: rgb(155, 154, 154);
+    display: block;    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    padding: 0.4px 5px;   
+}
+
+footer{
+    background-color: aliceblue;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    
+    min-width: 300px;
+    max-width: 1900px;   
+}
